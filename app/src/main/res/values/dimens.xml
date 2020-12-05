@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Sp -->
+    <dimen name="dimensión_saludoInicial">50sp</dimen>
+    <dimen name="dimensión_padding_Boton">50sp</dimen>
+
+    <!-- Dp -->
+    <dimen name="dimensión_ancho_Boton">170dp</dimen>
+    <dimen name="dimensión_margintop_textview">20dp</dimen>
+    <dimen name="dimensión_margintop_button_port">100dp</dimen>
+    <dimen name="dimensión_margintop_button_land">20dp</dimen>
+    <dimen name="dimensión_margintop_button_tablet_port">400dp</dimen>
+    <dimen name="dimensión_margintop_button_tablet_land">200dp</dimen>
+
+</resources>

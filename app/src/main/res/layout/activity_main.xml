@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounded"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_Bienvenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="80dp"
+        android:text="@string/lbl_saludoInicial"
+        android:textSize="@dimen/dimensión_saludoInicial"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <Button
+        android:id="@+id/btn_Ingresar"
+        android:layout_width="@dimen/dimensión_ancho_Boton"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dimensión_margintop_button_port"
+        android:text="@string/btn_Entrar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:visibility="visible"
+        app:backgroundTint="@android:color/transparent"
+        app:rippleColor="@color/white"
+        app:strokeColor="@color/white"
+        app:strokeWidth="@dimen/cardview_compat_inset_shadow"/>
+
+</LinearLayout>
